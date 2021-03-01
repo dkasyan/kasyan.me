@@ -12,3 +12,6 @@ pyvenv.cfg
 .venv
 pip-selfcheck.json
 /share
+
+### developertrash
+kasyan.me/__pycache__
