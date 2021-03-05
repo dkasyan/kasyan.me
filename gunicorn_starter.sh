@@ -1,2 +1,2 @@
 #!/bin/sh
-gunicorn --chdir kasyan.me/ main:app -w 2 --threads 2 -b 0.0.0.0:8000
+gunicorn --chdir kasyan.me/ routes:app -w 2 --threads 2 -b 0.0.0.0:8000
